@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>HTML & CSS: div tags, ids and classes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <!-- Add ids to these paragraphs so that the first has a green background and the second has a red background. -->
+    <!-- HINT: look at the stylesheet to figure out what the correct ids to add are -->
+      <p>I should have a green background!</p>
+      <p>I should have a red background!</p>
+    
+    <!-- Add classes to these paragraphs so that the first and third have a blue background and the second and fourth have a yellow background. -->
+      <p>I should have a blue background!</p>
+      <p>I should have a yellow background!</p>
+      <p>I should have a blue background!</p>
+      <p>I should have a yellow background!</p>
+      
+    <!-- Create 2 paragraph tags. In your stylesheet, style the first to have blue text and the second to have red text. -->
+    <!-- HINT: use id attributes to distinguish the two paragraphs -->
+    
+    <!-- Create 4 paragraph tags. In your stylesheet, style the first two paragraphs to have green text and the second two paragraphs to have yellow text. -->
+    <!-- HINT: use class attributes to group the paragraphs -->
+    
+    <!-- Add ids or classes (as appropriate) to the below divs such that the first div and its contents have a green background, and the second and third divs and their contents have yellow backgrounds.-->
+    <!-- HINT: look at the stylesheet to figure out what the correct ids and classes to add are -->
+
+    <div>
+      <p>I should be inside a div with a green background!</p>
+      <p>I should be inside a div with a green background!</p>
+    </div>
+    
+    <div>
+      <p>I should be inside a div with a yellow background!</p>
+      <p>I should be inside a div with a yellow background!</p>
+    </div>
+    
+     <div>
+      <p>I should be inside a div with a yellow background!</p>
+      <p>I should be inside a div with a yellow background!</p>
+    </div>
+    
+    <!-- Create a div with 4 paragraphs inside it. Style that div to have a black background. Style the first two paragraphs to have white colored text. Style the second two paragraphs to have red colored text and a white background. -->
+    <!-- HINT: don't forget to use ids and classes to help with your styling -->
+    
+    
+  </body>
+</html>

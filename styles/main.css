@@ -1,0 +1,143 @@
+/**************************************
+ * General Styles, Typography
+ * ***********************************/
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #1c1e2a;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+  color: whitesmoke;
+}
+
+h1{
+  color: gold;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h1, a{
+  font-family: Orbitron, sans-serif;
+}
+
+a{
+  color: firebrick;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+img{
+  border-radius: 20px;
+  width: 700px;
+}
+
+/**************************************
+ * Page
+ * ***********************************/
+
+.page{
+  margin: 50px auto;
+  width: 800px;
+}
+
+/* Header */
+
+.page header{
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+
+.page header img{
+  margin-right: 50px;
+  float: left;
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* Nav */
+
+.page nav{
+  font-size: 25px;
+}
+
+.page nav a{
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.page nav a:hover{
+  background: gold;
+  text-decoration: none;
+}
+
+.page nav a.nav-current{
+  background: gold;
+}
+
+/* Footer */
+.page footer{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.page footer img{
+  width: 50px;
+}
+/**************************************
+ * Home Page
+ * ***********************************/
+
+#page-home-cover{
+  text-align: center;
+}
+
+#page-home-cover img{
+  height: 550px;
+  border-radius: 50%;
+}
+
+/**************************************
+ * About Page
+ * ***********************************/
+
+#page-about-content{
+  clear: both;
+}
+
+#page-about-content img{
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/**************************************
+ * Gallery Page
+ * ***********************************/
+
+#page-gallery-content{
+  width: 100%;
+  overflow: hidden;
+}
+
+#page-gallery-content img{
+  float: left;
+  height: 250px;
+  margin: 25px;
+}
+
+/**************************************
+ * Links Page
+ * ***********************************/
+
+#page-links-content iframe{
+  margin-bottom: 50px;
+}
+
